@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://image2pdf-app.netlify.app/sitemap.xml

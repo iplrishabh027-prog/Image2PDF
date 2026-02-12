@@ -454,8 +454,8 @@ const App: React.FC = () => {
               </div>
             </div>
           
-  return (
-    <>
+return (
+  <>
     {/* SEO Hidden Content for Google */}
     <section style={{ display: "none" }}>
       <h1>Image to PDF Converter Online Free</h1>
@@ -478,7 +478,7 @@ const App: React.FC = () => {
       </ul>
     </section>
 
-    <div className="min-h-screen flex flex-col selection:bg-blue-100 selection:text-blue-900">
+    <div className="min-h-screen flex flex-col">
       <Header onNavigate={setCurrentPage} theme={theme} toggleTheme={toggleTheme} />
 
       <main className="flex-grow">
@@ -498,5 +498,3 @@ const App: React.FC = () => {
     </div>
   </>
 );
-
-export default App;

@@ -454,10 +454,6 @@ const App: React.FC = () => {
               </div>
             </div>
           
-        );
-    }
-  };
-
   return (
     <>
     {/* SEO Hidden Content for Google */}

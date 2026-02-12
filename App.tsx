@@ -459,6 +459,27 @@ const App: React.FC = () => {
   };
 
   return (
+    {/* SEO Hidden Content for Google */}
+<section style={{ display: "none" }}>
+  <h1>Image to PDF Converter Online Free</h1>
+
+  <p>
+    Image2PDF is a free online tool to convert images to PDF.
+    Convert JPG, PNG, WEBP images into high quality PDF files instantly.
+  </p>
+
+  <p>
+    No signup required. 100% client side image to PDF converter.
+    Fast, secure and works on all devices.
+  </p>
+
+  <ul>
+    <li>Convert JPG to PDF online</li>
+    <li>Convert PNG to PDF free</li>
+    <li>Image to PDF converter without upload</li>
+    <li>Online PDF creator tool</li>
+  </ul>
+</section>
     <div className="min-h-screen flex flex-col selection:bg-blue-100 selection:text-blue-900 dark:selection:bg-blue-900 dark:selection:text-blue-100 transition-colors">
       <Header onNavigate={setCurrentPage} theme={theme} toggleTheme={toggleTheme} />
       
